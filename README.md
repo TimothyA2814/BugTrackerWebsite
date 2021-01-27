@@ -1,4 +1,4 @@
-# Shouse Barn Quilts Website
+# Bug Tracker Website
 
 ## Objective:
 Deliver a web base error tracking, handling and resolution app.
@@ -20,7 +20,7 @@ Deliver a web base error tracking, handling and resolution app.
 * CSS
 * Javascript
 
-## Project Roadmap:
+## Project:
 
 1. HTML basic structure...In Progress.
 2. CSS style basics...In Progress.  
