@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title>BugTracker9000</title>
+    <title>HelpTicketForm</title>
     
 </head>
 <body>
@@ -13,7 +13,55 @@
     </nav>
 
     <main>
+<h1>Tech Support Form</h1>
 
+<form class="errorForm">
+    <label>Name:</label>
+    <input type="text">
+
+    <br>
+
+    <label>Email:</label>
+    <input type="email">
+
+    <br>
+
+    <label>Phone:</label>
+    <input type="phone">
+
+    <br>
+
+    <p>Please select your preferred contact method:</p>
+    <div>
+    <input type="radio" id="contactChoice1" name="contact" value="email">
+    <label for="contactChoice1">Email</label>
+
+    <input type="radio" id="contactChoice2" name="contact" value="phone">
+    <label for="contactChoice2">Phone</label>
+    </div>
+
+    <br>
+
+    <label>Type of Error:</label>
+        <select>
+            <option>Choose..</option>
+            <option>Password Reset</option>
+            <option>Issue with Updating</option>
+            <option>Issue installing</option>
+            <option>Issue accessing an item</option>
+            <option>Other</option>
+        </select>
+
+    <br>
+    
+    <label>Message:</label>
+    <textarea class="message"></textarea>
+
+    <br>
+
+    <button type="submit">Submit</button>
+    <button type="reset">Start Over</button>
+    </form>
     </main>
 
 
